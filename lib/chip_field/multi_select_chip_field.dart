@@ -469,6 +469,7 @@ class __MultiSelectChipFieldViewState<V>
       margin: EdgeInsets.all(0),
       padding: const EdgeInsets.all(2.0),
       child: ChoiceChip(
+        showCheckmark: false,
         shape: widget.chipShape as OutlinedBorder? ??
             RoundedRectangleBorder(
               side: BorderSide(
